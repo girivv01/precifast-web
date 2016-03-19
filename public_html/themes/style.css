@@ -106,4 +106,24 @@ body {
 	
 }
 
+.sec-title {
+	font-weight: bold;
+	font-size: 16px;
+	color: #002060;
+	padding: 4px;
+}
 
+.sec-content {
+	font-size: 14px;
+	padding: 10px 10px 10px 50px;
+	color: black;
+}
+
+.sec-content p,.sec-content li {
+	color: black;
+}
+
+.sec-content>ul {
+	padding: 10px 30px;
+	list-style: disc;
+}

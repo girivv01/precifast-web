@@ -22,6 +22,39 @@
 
         <style type="text/css">
         
+        #body-banner {
+            text-align: center;
+        }
+
+        #body-banner img {
+            width: 650px;
+            margin: 30px;
+        }
+        
+        #image-vert-panel {
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        #image-vert-panel img {
+            padding: 0;
+            margin: 10px;
+            width: 70%;
+        }
+        
+        .copy-right-cont {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin: 20px 10px;
+        }
+        
+        #footer-cont {
+            border-top: 1px solid #ccc;
+            margin: 30px auto;
+            width: 880px;
+        }
+        
         </style>
     
     </head>
@@ -69,63 +102,81 @@
         <!-- Main content -->
         <section class="main-content">
             <div class="container">
-    
-                <div class="row">
-                    <div id="body-banner">
-                        <img alt="banner image" src="themes/imgs/body_banner.png" />
+            
+                <!-- left panel images -->
+                <div class="hidden-sm col-md-3" id="image-vert-panel">
+                    <img src="themes/imgs/fastener_01.png">
+                    <img src="themes/imgs/fastener_02.png">
+                </div>
+            
+                
+                <div class="col-sm-12 col-md-9">
+                    <div class="row">
+                        <div id="body-banner">
+                            <img alt="banner image" src="themes/imgs/body_banner.png" />
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <h3 class="sec-title">One stop shop for all your fastening requirements</h3>
+                        <div class="sec-content">
+                            <p>We offer wide variety of fasteners viz., screws, bolts, nuts, socket bolts with 6.8 to 12.9
+                                grade in various surface finishes viz., hexavalent, trivalent GEO/Dacromat coatings</p>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <h3 class="sec-title">Completely vertical integrated manufacturing facility</h3>
+                        <div class="sec-content">
+                            <p>All processes viz forging, thread rolling, heat treatment, secondary operations and plating
+                                are in-house</p>
+                            <ul>
+                                <li>Greater flexibility – Speed in development</li>
+                                <li>Competitive – reduced supply chain linkages</li>
+                                <li>Consistent quality - Zero defect</li>
+                            </ul>
+                        </div>
+        
+                    </div>
+        
+                    <div class="row">
+                        <h3 class="sec-title">Solution provider</h3>
+                        <div class="sec-content">
+                            <p>We offer complete solution to the fastener requirement in terms of design, applications and
+                                supply chain optimization (warehouses near customer locations enabling JIT) and most importantly
+                                standardization & variety reduction of fasteners</p>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <h3 class="sec-title">Committed team</h3>
+                        <div class="sec-content">
+                            <p>Highly experienced team with more than 2 decades of experience in the field of fastening
+                                solutions and committed work force</p>
+                        </div>
                     </div>
                 </div>
-    
-                <div class="row">
-                    <h3 class="sec-title">One stop shop for all your fastening requirements</h3>
-                    <div class="sec-content">
-                        <p class="sec-content">We offer wide variety of fasteners viz., screws, bolts, nuts, socket
-                            bolts with 6.8 to 12.9 grade in various surface finishes viz., hexavalent, trivalent
-                            GEO/Dacromat coatings</p>
-                    </div>
-                </div>
-    
-                <div class="row">
-                    <h3 class="sec-title">Completely vertical integrated manufacturing facility</h3>
-                    <div class="sec-content">
-                        <p>All processes viz forging, thread rolling, heat treatment, secondary operations and plating
-                            are in-house</p>
-                        <ul>
-                            <li>Greater flexibility – Speed in development</li>
-                            <li>Competitive – reduced supply chain linkages</li>
-                            <li>Consistent quality - Zero defect</li>
-                        </ul>
-                    </div>
-    
-                </div>
-    
-                <div class="row">
-                    <h3 class="sec-title">Solution provider</h3>
-                    <div class="sec-content">
-                        <p class="sec-content">We offer complete solution to the fastener requirement in terms of
-                            design, applications and supply chain optimization (warehouses near customer locations enabling
-                            JIT) and most importantly standardization & variety reduction of fasteners</p>
-                    </div>
-                </div>
-    
-                <div class="row">
-                    <h3 class="sec-title">Committed team</h3>
-                    <div class="sec-content">
-                        <p class="sec-content">Highly experienced team with more than 2 decades of experience in the
-                            field of fastening solutions and committed work force</p>
-                    </div>
-                </div>
-    
     
             </div>
         </section>
 
         <!-- Footer -->
         <footer>
-            <div class="container" >
-            
+            <div class="container">
+    
+                <div id="footer-cont">
+                    <div class="copy-right-cont">
+                        <label>PreciFast Pvt Ltd. All Rights Reserved</label>
+                    </div>
+                    <div class="social-media-cont">
+                        <ul>
+    
+                        </ul>
+                    </div>
+                </div>
+    
             </div>
-        
+
             <!-- Scripts -->
             <section>
                 <script src="scripts/jquery/jquery.min.js"></script>
