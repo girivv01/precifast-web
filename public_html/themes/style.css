@@ -21,10 +21,6 @@ body {
 	overflow-y: scroll;
 }
 
-ol,ul {
-	list-style: none;
-}
-
 blockquote,q {
 	quotes: none;
 }
@@ -59,7 +55,15 @@ a {
 	font-weight: bold
 }
 
+.img-cont img {
+	width: 100%;
+}
+
 /* reset ends */
+
+
+
+/* Header */
 
 header {
 	background-color: #84A1E4;
@@ -102,13 +106,19 @@ li.active a {
     background-color: #E7E7E7;
 }
 
+
+/* Header ends */
+
+/* Body */
+
 body {
 	color: black;
 	font-size: 14px;
 }
 
-.container {
-	
+.main-content {
+	min-height: 450px;
+	padding-top: 50px;
 }
 
 .sec-title {
@@ -133,6 +143,69 @@ body {
 	list-style: disc;
 }
 
+.left-nav {
+
+}
+
+.left-nav label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CCC;
+}
+
+.left-nav > ul {
+    margin: 15px;
+    border: 0px !important;
+}
+
+.left-nav > ul > li {
+    border: 0px !important;
+    border-radius: 0px !important; 
+}
+
+.left-nav > ul > li.active > a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-tabs > li > a, .nav-tabs > li.active > a {
+    border: 0px !important;
+    border-radius: 0px !important;	
+}
+
+.tab-content {
+    line-height: 22px;	
+}
+
+table {
+	text-align: center;
+}
+
+table .text-align-left {
+    text-align: left;
+}
+
+table .text-align-left ul {
+    margin: 5px 5px 5px 20px;
+}
+
+thead th {
+	font-weight: bold;
+	text-align: center;
+}
+
+.address-cont p {
+    margin: 20px 0;
+    line-height: 18px;
+}
+
+
+/* Body ends */
+
+
+/* Footer */
+
 .copy-right-cont {
 	text-align: center;
 	color: #666;
@@ -145,6 +218,9 @@ body {
 	margin: 30px auto;
 	width: 880px;
 }
+
+/* Footer ends */
+
 
 
 
