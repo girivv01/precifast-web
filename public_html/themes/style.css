@@ -85,7 +85,7 @@ img.logo {
 }
 
 #nav-cont {
-	margin: 48px 10px 0 10px;
+	margin: 50px 10px 0 10px;
 	color: black;
 }
 
@@ -96,6 +96,10 @@ img.logo {
 
 #nav-cont a:HOVER {
 	color: #C00000;
+}
+
+li.active a {
+    background-color: #E7E7E7;
 }
 
 body {
